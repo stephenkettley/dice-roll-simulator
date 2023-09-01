@@ -1,0 +1,55 @@
+body {
+    font-family: "Courier New";
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+.dice {
+    font-size: 7rem;
+    margin: 5px;
+}
+
+button {
+    background-color: rgb(214, 102, 152);
+    color: white;
+    font-size: 20px;
+    padding:  10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: rgb(255, 126, 184);
+    transform: scale(0.97);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 2rem auto;
+    max-width: 600px;
+}
+
+li {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: #f2f2f2;
+    border-radius: .5rem;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li span {
+    font-size: 3rem;
+    margin-right: 1rem;
+}
